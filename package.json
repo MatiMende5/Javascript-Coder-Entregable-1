@@ -1,0 +1,17 @@
+{
+  "name": "sass-entregable",
+  "version": "1.0.0",
+  "description": "entrega con sass",
+  "main": "index.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1", 
+  "build-sass": "node-sass --include-path scss sass/estilos.scss css/main.css", 
+  "watch-sass": "nodemon -e scss -x \"npm run build-sass\""
+  },
+  "author": "matiasmendelovich",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
