@@ -1,0 +1,30 @@
+    /* Colors*/
+$primary: black;
+$secondary: #ff5375;
+$alternative: #302f4d;
+$text-color: #2B2b2b;
+
+    /* Font-Family */
+$font-principal: 'Barlow', sans-serif;
+$font-title: 'Roboto Slab' serif;
+
+    /* Spacings */
+$spacing-large: 6rem;
+$spacing-medium: 2.4rem;
+$spacing-small: 1.2rem;
+$spacing-xsmall: 1rem 0;
+
+    /* Font-Sizes */
+$text-large: 5.2em;
+$text-medium: 2.2em;
+$text-base: 1.7em;
+$text-small: 1.5em;
+
+    /* Medidas */
+$ancho: 400px;
+$ancho-deportes: 300px;
+
+    /* Mixins */
+@mixin tamanios($anchura) {
+    width: $anchura;
+}
